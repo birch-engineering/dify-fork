@@ -33,6 +33,7 @@ from core.model_runtime.entities.model_entities import (
     ModelType,
     ParameterRule,
     ParameterType,
+    ModelPropertyKey
 )
 from core.model_runtime.errors.invoke import (
     InvokeAuthorizationError,
@@ -327,7 +328,7 @@ class AzureAIStudioLargeLanguageModel(LargeLanguageModel):
             fetch_from=FetchFrom.CUSTOMIZABLE_MODEL,
             model_type=ModelType.LLM,
             features=[],
-            model_properties={},
+            model_properties={ModelPropertyKey.MODE: "chat"},
             parameter_rules=rules,
         )
 
