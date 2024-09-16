@@ -5294,13 +5294,13 @@ tldextract = ">=2.0.1"
 
 [[package]]
 name = "nltk"
-version = "3.8.1"
+version = "3.9"
 description = "Natural Language Toolkit"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "nltk-3.8.1-py3-none-any.whl", hash = "sha256:fd5c9109f976fa86bcadba8f91e47f5e9293bd034474752e92a520f81c93dda5"},
-    {file = "nltk-3.8.1.zip", hash = "sha256:1834da3d0682cba4f2cede2f9aad6b0fafb6461ba451db0efb6f9c39798d64d3"},
+    {file = "nltk-3.9-py3-none-any.whl", hash = "sha256:d17863e861bb33ac617893329d71d06a3dfb7e3eb9ee0b8105281c53944a45a1"},
+    {file = "nltk-3.9.tar.gz", hash = "sha256:e98acac454407fa38b76cccb29208d377731cf7fab68f323754a3681f104531f"},
 ]
 
 [package.dependencies]
@@ -10416,4 +10416,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "9173a56b2efea12804c980511e1465fba43c7a3d83b1ad284ee149851ed67fc5"
+content-hash = "5b6d299d7e94612fb559b43c5c843e27254474a4619f47b89a748fed7fe24268"
