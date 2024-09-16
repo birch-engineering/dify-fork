@@ -7413,19 +7413,19 @@ files = [
 
 [[package]]
 name = "qdrant-client"
-version = "1.7.3"
+version = "1.9.0"
 description = "Client library for the Qdrant vector search engine"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "qdrant_client-1.7.3-py3-none-any.whl", hash = "sha256:b062420ba55eb847652c7d2a26404fb1986bea13aa785763024013f96a7a915c"},
-    {file = "qdrant_client-1.7.3.tar.gz", hash = "sha256:7b809be892cdc5137ae80ea3335da40c06499ad0b0072b5abc6bad79da1d29fc"},
+    {file = "qdrant_client-1.9.0-py3-none-any.whl", hash = "sha256:ee02893eab1f642481b1ac1e38eb68ec30bab0f673bef7cc05c19fa5d2cbf43e"},
+    {file = "qdrant_client-1.9.0.tar.gz", hash = "sha256:7b1792f616651a6f0a76312f945c13d088e9451726795b82ce0350f7df3b7981"},
 ]
 
 [package.dependencies]
 grpcio = ">=1.41.0"
 grpcio-tools = ">=1.41.0"
-httpx = {version = ">=0.14.0", extras = ["http2"]}
+httpx = {version = ">=0.20.0", extras = ["http2"]}
 numpy = [
     {version = ">=1.21", markers = "python_version >= \"3.8\" and python_version < \"3.12\""},
     {version = ">=1.26", markers = "python_version >= \"3.12\""},
@@ -7435,7 +7435,7 @@ pydantic = ">=1.10.8"
 urllib3 = ">=1.26.14,<3"
 
 [package.extras]
-fastembed = ["fastembed (==0.1.1)"]
+fastembed = ["fastembed (==0.2.6)"]
 
 [[package]]
 name = "qrcode"
@@ -10416,4 +10416,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "9173a56b2efea12804c980511e1465fba43c7a3d83b1ad284ee149851ed67fc5"
+content-hash = "30c18c00224f9a6a0d3603df654071bbee054cfc9ef0940df07ab90c5a7a892f"
